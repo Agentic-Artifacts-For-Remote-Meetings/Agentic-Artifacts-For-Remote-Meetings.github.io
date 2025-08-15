@@ -88,7 +88,7 @@ function renderTable(data) {
       <tr>
         <td>${paper.Author}</td>
         <td>${paper.Year}</td>
-        <td>${paper.Paper}</td>
+        <td>${paper.Title}</td>
         <td><a href="${paper.DOI_URL}" target="_blank">${displayDOI}</a></td>
         <td>${Activity_note_display}</td>
         <td>${Timing_note_display}</td>
