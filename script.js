@@ -69,13 +69,13 @@ function renderTable(data) {
         if (paper.Cognition_note === undefined) {
             Activity_note_display = "";
         } else {
-            Activity_note_display = paper.Processed_Human_Activity_note;
+            Activity_note_display = paper.Activity_note;
         }
 
         if (paper.Affect_note === undefined) {
             Timing_note_display = "";
         } else {
-            Timing_note_display = paper.Timing_of_Delivery_note;
+            Timing_note_display = paper.Timing_note;
         }
 
         if (paper.Outcome_note === undefined) {
