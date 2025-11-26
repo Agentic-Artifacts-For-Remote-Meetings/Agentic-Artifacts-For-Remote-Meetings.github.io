@@ -20,25 +20,60 @@
     <div id="filters">
       <!-- Filters will be added here -->
     </div>
-    <div id="table-wrapper">
-      <table id="papers-table">
-        <thead>
-          <tr>
-            <th id="sort-author">Author(s)</th>
-            <th id="sort-year">Year</th>
-            <th id="sort-paper">Title</th>
-            <th>DOI or URL</th>
-            <th>Multiple Processed Human Activities</th>
-            <th>Multiple Timings of Delivery</th>
-            <th>Multiple Outcomes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Table data will be added here -->
-        </tbody>
-      </table>
+
+    <button id="reset-filters-btn">🔄 Reset all filters</button>
+
+    <!-- Tab Navigation -->
+    <div id="tab-navigation">
+      <button class="tab-btn active" data-tab="research-tab">Research Papers</button>
+      <button class="tab-btn" data-tab="tools-tab">Practice Tools</button>
     </div>
-    <p id="no-data-message" style="display: none;">The selected configuration is not present in our data-set.</p>
+
+    <!-- Research Papers Tab -->
+    <div id="research-tab" class="tab-content active">
+      <div id="research-count" class="result-count"></div>
+      <div id="table-wrapper">
+        <table id="papers-table">
+          <thead>
+            <tr>
+              <th id="sort-author">Author(s)</th>
+              <th id="sort-year">Year</th>
+              <th id="sort-paper">Title</th>
+              <th>DOI or URL</th>
+              <th>Multiple Activities</th>
+              <th>Multiple Timings</th>
+              <th>Multiple Outcomes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table data will be added here -->
+          </tbody>
+        </table>
+      </div>
+      <p id="no-data-message" style="display: none;">The selected configuration is not present in our research data-set.</p>
+    </div>
+
+    <!-- Practice Tools Tab -->
+    <div id="tools-tab" class="tab-content">
+      <div id="tools-count" class="result-count"></div>
+      <div id="tools-wrapper">
+        <table id="tools-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Provider</th>
+              <th>Link</th>
+              <th>Multiple Activities</th>
+              <th>Multiple Timings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table data will be added here -->
+          </tbody>
+        </table>
+      </div>
+      <p id="no-data-message-tools" style="display: none;">The selected configuration is not present in our tools data-set.</p>
+    </div>
   </div>
   <footer>
     <p>Authors: blinded for review</p>
