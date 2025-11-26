@@ -16,7 +16,7 @@
       "Meeting Duration": ["< 10 min.", "10-60 min.", "> 60 min.", "Multiple", "Not Available"],
       "Meeting Environment": ["Professional", "Education", "Private", "Not Available"],
       "Relational Role of the Agentic Artifact": ["Individual Support", "Communication Facilitation", "Team Support", "Member"],
-      "Outcome": ["Performance", "Attitudinal", "Behavior", "Multiple"]
+      "Outcome": ["Performance", "Attitudinal", "Behavior", "Multiple", "Not Available"]
     },
     "groups": [
       {
